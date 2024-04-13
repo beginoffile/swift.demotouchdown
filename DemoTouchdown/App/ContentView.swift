@@ -29,6 +29,7 @@ struct ContentView: View {
                                 .padding(.vertical,20)
                                 .frame(height: UIScreen.main.bounds.height * 0.33)
 //                                .aspectRatio(contentMode: .fill)
+                            CategoryGridView()
                             FooterView()
                                 .padding(.horizontal)
                         } //: VSTACK

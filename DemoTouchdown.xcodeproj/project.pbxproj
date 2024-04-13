@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		05ADE5E22BCB203000662954 /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ADE5E12BCB203000662954 /* FeaturedTabView.swift */; };
+		05ADE5E42BCB2AA100662954 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ADE5E32BCB2AA100662954 /* CategoryModel.swift */; };
+		05ADE5E62BCB2BC500662954 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ADE5E52BCB2BC500662954 /* CategoryItemView.swift */; };
+		05ADE5E82BCB2DF000662954 /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ADE5E72BCB2DF000662954 /* CategoryGridView.swift */; };
+		05ADE5EA2BCB311B00662954 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ADE5E92BCB311B00662954 /* SectionView.swift */; };
 		05BEFA732BCA121C00F73730 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BEFA722BCA121C00F73730 /* NavigationBarView.swift */; };
 		05BEFA752BCB0AFF00F73730 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BEFA742BCB0AFF00F73730 /* LogoView.swift */; };
 		05BEFA772BCB19B800F73730 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BEFA762BCB19B800F73730 /* PlayerModel.swift */; };
@@ -27,6 +31,10 @@
 
 /* Begin PBXFileReference section */
 		05ADE5E12BCB203000662954 /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
+		05ADE5E32BCB2AA100662954 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		05ADE5E52BCB2BC500662954 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
+		05ADE5E72BCB2DF000662954 /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
+		05ADE5E92BCB311B00662954 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		05BEFA722BCA121C00F73730 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		05BEFA742BCB0AFF00F73730 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		05BEFA762BCB19B800F73730 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
@@ -134,6 +142,9 @@
 				05BEFA742BCB0AFF00F73730 /* LogoView.swift */,
 				05BEFA7A2BCB1D1D00F73730 /* FeaturedItemView.swift */,
 				05ADE5E12BCB203000662954 /* FeaturedTabView.swift */,
+				05ADE5E52BCB2BC500662954 /* CategoryItemView.swift */,
+				05ADE5E72BCB2DF000662954 /* CategoryGridView.swift */,
+				05ADE5E92BCB311B00662954 /* SectionView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -157,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				05BEFA762BCB19B800F73730 /* PlayerModel.swift */,
+				05ADE5E32BCB2AA100662954 /* CategoryModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -250,7 +262,11 @@
 				05BEFA7B2BCB1D1D00F73730 /* FeaturedItemView.swift in Sources */,
 				05D4618B2BC7624300AAD2C9 /* DemoTouchdownApp.swift in Sources */,
 				05D461AC2BC7660500AAD2C9 /* Constants.swift in Sources */,
+				05ADE5E82BCB2DF000662954 /* CategoryGridView.swift in Sources */,
+				05ADE5E42BCB2AA100662954 /* CategoryModel.swift in Sources */,
 				05BEFA732BCA121C00F73730 /* NavigationBarView.swift in Sources */,
+				05ADE5EA2BCB311B00662954 /* SectionView.swift in Sources */,
+				05ADE5E62BCB2BC500662954 /* CategoryItemView.swift in Sources */,
 				05ADE5E22BCB203000662954 /* FeaturedTabView.swift in Sources */,
 				05BEFA772BCB19B800F73730 /* PlayerModel.swift in Sources */,
 			);
