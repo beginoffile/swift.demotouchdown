@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05BEFA732BCA121C00F73730 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BEFA722BCA121C00F73730 /* NavigationBarView.swift */; };
+		05BEFA752BCB0AFF00F73730 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BEFA742BCB0AFF00F73730 /* LogoView.swift */; };
 		05D4618B2BC7624300AAD2C9 /* DemoTouchdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D4618A2BC7624300AAD2C9 /* DemoTouchdownApp.swift */; };
 		05D4618D2BC7624300AAD2C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D4618C2BC7624300AAD2C9 /* ContentView.swift */; };
 		05D4618F2BC7624500AAD2C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05D4618E2BC7624500AAD2C9 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05BEFA722BCA121C00F73730 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		05BEFA742BCB0AFF00F73730 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		05D461872BC7624300AAD2C9 /* DemoTouchdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoTouchdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D4618A2BC7624300AAD2C9 /* DemoTouchdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTouchdownApp.swift; sourceTree = "<group>"; };
 		05D4618C2BC7624300AAD2C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				05D461AD2BC766A700AAD2C9 /* FooterView.swift */,
+				05BEFA722BCA121C00F73730 /* NavigationBarView.swift */,
+				05BEFA742BCB0AFF00F73730 /* LogoView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -226,9 +232,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				05D4618D2BC7624300AAD2C9 /* ContentView.swift in Sources */,
+				05BEFA752BCB0AFF00F73730 /* LogoView.swift in Sources */,
 				05D461AE2BC766A700AAD2C9 /* FooterView.swift in Sources */,
 				05D4618B2BC7624300AAD2C9 /* DemoTouchdownApp.swift in Sources */,
 				05D461AC2BC7660500AAD2C9 /* Constants.swift in Sources */,
+				05BEFA732BCA121C00F73730 /* NavigationBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
