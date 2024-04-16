@@ -18,6 +18,10 @@
 		05ADE5F22BCB8F6D00662954 /* BrandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ADE5F12BCB8F6D00662954 /* BrandModel.swift */; };
 		05ADE5F42BCB8FC400662954 /* BrandItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ADE5F32BCB8FC400662954 /* BrandItemView.swift */; };
 		05ADE5F62BCB911800662954 /* BrandGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ADE5F52BCB911800662954 /* BrandGridView.swift */; };
+		05ADE5F82BCDF5DB00662954 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ADE5F72BCDF5DB00662954 /* ProductDetailView.swift */; };
+		05ADE5FC2BCDF79100662954 /* NavigationBarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ADE5FB2BCDF79100662954 /* NavigationBarDetailView.swift */; };
+		05ADE5FE2BCDF97900662954 /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ADE5FD2BCDF97900662954 /* HeaderDetailView.swift */; };
+		05ADE6002BCDFA5400662954 /* TopPartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ADE5FF2BCDFA5400662954 /* TopPartDetailView.swift */; };
 		05BEFA732BCA121C00F73730 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BEFA722BCA121C00F73730 /* NavigationBarView.swift */; };
 		05BEFA752BCB0AFF00F73730 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BEFA742BCB0AFF00F73730 /* LogoView.swift */; };
 		05BEFA772BCB19B800F73730 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BEFA762BCB19B800F73730 /* PlayerModel.swift */; };
@@ -47,6 +51,10 @@
 		05ADE5F12BCB8F6D00662954 /* BrandModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandModel.swift; sourceTree = "<group>"; };
 		05ADE5F32BCB8FC400662954 /* BrandItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandItemView.swift; sourceTree = "<group>"; };
 		05ADE5F52BCB911800662954 /* BrandGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandGridView.swift; sourceTree = "<group>"; };
+		05ADE5F72BCDF5DB00662954 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		05ADE5FB2BCDF79100662954 /* NavigationBarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarDetailView.swift; sourceTree = "<group>"; };
+		05ADE5FD2BCDF97900662954 /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
+		05ADE5FF2BCDFA5400662954 /* TopPartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPartDetailView.swift; sourceTree = "<group>"; };
 		05BEFA722BCA121C00F73730 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		05BEFA742BCB0AFF00F73730 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		05BEFA762BCB19B800F73730 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
@@ -133,6 +141,7 @@
 			children = (
 				05D4618A2BC7624300AAD2C9 /* DemoTouchdownApp.swift */,
 				05D4618C2BC7624300AAD2C9 /* ContentView.swift */,
+				05ADE5F72BCDF5DB00662954 /* ProductDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -168,6 +177,9 @@
 		05D461A62BC764FC00AAD2C9 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				05ADE5FB2BCDF79100662954 /* NavigationBarDetailView.swift */,
+				05ADE5FD2BCDF97900662954 /* HeaderDetailView.swift */,
+				05ADE5FF2BCDFA5400662954 /* TopPartDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -274,6 +286,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				05BEFA792BCB1A0E00F73730 /* CodableBundleExtension.swift in Sources */,
+				05ADE5FE2BCDF97900662954 /* HeaderDetailView.swift in Sources */,
+				05ADE6002BCDFA5400662954 /* TopPartDetailView.swift in Sources */,
 				05D4618D2BC7624300AAD2C9 /* ContentView.swift in Sources */,
 				05BEFA752BCB0AFF00F73730 /* LogoView.swift in Sources */,
 				05D461AE2BC766A700AAD2C9 /* FooterView.swift in Sources */,
@@ -281,6 +295,8 @@
 				05ADE5F02BCB388100662954 /* ProductItemView.swift in Sources */,
 				05ADE5F62BCB911800662954 /* BrandGridView.swift in Sources */,
 				05D4618B2BC7624300AAD2C9 /* DemoTouchdownApp.swift in Sources */,
+				05ADE5F82BCDF5DB00662954 /* ProductDetailView.swift in Sources */,
+				05ADE5FC2BCDF79100662954 /* NavigationBarDetailView.swift in Sources */,
 				05D461AC2BC7660500AAD2C9 /* Constants.swift in Sources */,
 				05ADE5E82BCB2DF000662954 /* CategoryGridView.swift in Sources */,
 				05ADE5E42BCB2AA100662954 /* CategoryModel.swift in Sources */,
