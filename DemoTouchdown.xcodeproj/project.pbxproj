@@ -41,6 +41,7 @@
 		05D461AC2BC7660500AAD2C9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D461AB2BC7660500AAD2C9 /* Constants.swift */; };
 		05D461AE2BC766A700AAD2C9 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D461AD2BC766A700AAD2C9 /* FooterView.swift */; };
 		05E0FA342BD0A191000173F0 /* AddToCartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E0FA332BD0A191000173F0 /* AddToCartDetailView.swift */; };
+		05E0FA362BD0A35D000173F0 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E0FA352BD0A35D000173F0 /* Shop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		05D461AB2BC7660500AAD2C9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		05D461AD2BC766A700AAD2C9 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		05E0FA332BD0A191000173F0 /* AddToCartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartDetailView.swift; sourceTree = "<group>"; };
+		05E0FA352BD0A35D000173F0 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +221,7 @@
 			children = (
 				05D461AB2BC7660500AAD2C9 /* Constants.swift */,
 				05ADE6012BCDFDB800662954 /* CustomShape.swift */,
+				05E0FA352BD0A35D000173F0 /* Shop.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				05ADE5E22BCB203000662954 /* FeaturedTabView.swift in Sources */,
 				05ADE6022BCDFDB800662954 /* CustomShape.swift in Sources */,
 				05BEFA772BCB19B800F73730 /* PlayerModel.swift in Sources */,
+				05E0FA362BD0A35D000173F0 /* Shop.swift in Sources */,
 				05ADE5F22BCB8F6D00662954 /* BrandModel.swift in Sources */,
 				05ADE5EC2BCB36F200662954 /* TitleView.swift in Sources */,
 				05ADE6062BCE04E700662954 /* QuantityFavouriteDetailView.swift in Sources */,
